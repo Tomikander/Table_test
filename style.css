@@ -1,14 +1,15 @@
-#block {
-  width: 500px;
-  height: 200px;
-  background: rgb(157, 107, 204);
+.menu-item{
+  border: 2px solid #66CDAA;
+  display: inline-block; 
+  position: relative;
+  cursor: pointer;
 }
 
-p {
-  color: rgb(7, 247, 19);
-  margin: 10px;
+.menu-item .submenu{
+  height: 40px;
+  width: 120px;
+  background: green;
+  position: absolute;
+  cursor: pointer;
 }
 
-h1 {
-  color: seagreen;
-}
